@@ -71,14 +71,215 @@ html {
 }
 /* END BOX MODEL SETTINGS */
 
-body {
+h4 right{
   font-size: 16px; /* Base Size */
   /*Setting the base font family*/
   font-family: "Source Sans Pro", Verdana, sans-serif;
   margin: 0;
   padding: 0;
+  text-align: right;
+}
+/* Full Width */
+.content-band {
+  width: 100%;
+  /*min-height: 320px;*/
 }
 
+.live-area {
+  max-width: 900px;
+  margin: 0 auto;
+  /*min-height: 20px;*/
+
+}
+
+.content-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.left .content-wrapper {
+  justify-content: flex-start;
+}
+.left .content-wrapper {
+  justify-content: flex-end;
+}
+
+/* MOBILE STYLES */
+@media only screen and (max-width: 767px) {
+  .content-wrapper {
+      flex-flow: column nowrap;
+  }
+}
+
+.dot-image {
+  width: 220px;
+  height: 220px;
+  background-color: white;
+  flex: 0 0 auto;
+}
+
+.text-wrapper {
+  flex: 1 1 50%;
+}
+
+.right .text-wrapper {
+  margin-left: 25%;
+  margin-right: 2em;
+}
+
+.left .text-wrapper {
+  margin-right: 25%;
+  margin-left: 2em;
+}
+
+/* MOBILE STYLES */
+@media only screen and (max-width: 767px) {
+  .right .text-wrapper, .left .text-wrapper {
+    margin-right: 2em;
+    margin-left: 2em;
+    text-align: center;
+  }
+}
+
+
+.main-banner {
+background: url(Header.jpg);
+background-size: auto;
+}
+
+
+
+
+
+.main-banner h1 {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 70px;
+}
+
+.h2 {
+  color: #154651;
+  font-size: 16px;
+  text-align: right;
+}
+
+.header {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Ramaraja', serif;
+  padding-bottom: 20px;
+  padding-top: 60px;
+}
+
+.zero{
+  font-size: 13px;
+  text-align: center;
+  width: inherit;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.first {
+  font-size: 13px;
+  text-align: right;
+  width: inherit;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #F0EADF;
+}
+
+.second {
+    font-size: 13px;
+    text-align: left;
+    width: inherit;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #FCF6F1;
+  }
+
+  .third {
+    font-size: 13px;
+    text-align: right;
+    width: inherit;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #F0F7F6;
+
+}
+
+.fourth {
+    font-size: 13px;
+    text-align: left;
+    width: inherit;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #E2F2F0;
+}
+
+.fifth {
+    font-size: 13px;
+    text-align: right;
+    width: inherit;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #C3E6E6;
+  }
+
+.sixth {
+    font-size: 13px;
+    text-align: left;
+    width: inherit;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #98D4D4;
+  }
+
+.seven {
+    font-size: 13px;
+    text-align: right;
+    width: inherit;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #6EB7B4;
+  }
+
+.eight {
+    font-size: 13px;
+    text-align: left;
+    width: inherit;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #3D7F7A;
+  }
+
+.nine {
+    font-size: 13px;
+    text-align: right;
+    width: inherit;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #276A75;
+  }
+
+.ten {
+    font-size: 13px;
+    text-align: left;
+    width: inherit;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #154651;
+  }
 /*Here's a sample media query for you. This one is for desktop styles.*/
 /*@media only screen and (min-width: 960px) {
 
