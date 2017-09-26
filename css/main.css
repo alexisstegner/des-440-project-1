@@ -143,8 +143,8 @@ h4 right{
 
 
 .main-banner {
-background: url(Header.jpg);
-background-size: auto;
+background: white url('../Header.jpg') no-repeat center center;
+background-size: cover;
 }
 
 
