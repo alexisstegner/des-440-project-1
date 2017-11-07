@@ -89,7 +89,6 @@ h4 right{
   max-width: 900px;
   margin: 0 auto;
   /*min-height: 20px;*/
-
 }
 
 .content-wrapper {
@@ -97,9 +96,11 @@ h4 right{
   flex-flow: row nowrap;
   align-items: center;
 }
+
 .left .content-wrapper {
   justify-content: flex-start;
 }
+
 .left .content-wrapper {
   justify-content: flex-end;
 }
@@ -116,6 +117,14 @@ h4 right{
   height: 220px;
   background-color: white;
   flex: 0 0 auto;
+}
+
+.img {
+  display: block;
+  max-width:80%;
+  max-height:80%;
+  width: auto;
+  height: auto;
 }
 
 .text-wrapper {
@@ -141,20 +150,22 @@ h4 right{
   }
 }
 
-
 .main-banner {
 background: white url('../Header.jpg') no-repeat center center;
 background-size: cover;
 }
 
-
-
-
-
 .main-banner h1 {
   max-width: 800px;
   margin: 0 auto;
   font-size: 70px;
+}
+
+.main-banner zero {
+  color: #154651;
+  font-size: 17px;
+  text-align: center;
+  text-overflow: ellipsis;
 }
 
 .h2 {
@@ -174,7 +185,7 @@ background-size: cover;
 .zero{
   font-size: 13px;
   text-align: center;
-  width: inherit;
+  width: 80%;
   font-family: 'Source Sans Pro', sans-serif;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -187,7 +198,20 @@ background-size: cover;
   font-family: 'Source Sans Pro', sans-serif;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #F0EADF;
+  background: white url('../one.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.first p {
+  font-size: 15px;
+  max-width: 200px;
+  text-align: right;
+  width: inherit;
+}
+
+.first floating {
+  max-height: 70%;
+  max-width: auto;
 }
 
 .second {
@@ -197,7 +221,8 @@ background-size: cover;
     font-family: 'Source Sans Pro', sans-serif;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #FCF6F1;
+    background: white url('../two.jpg') no-repeat center center;
+    background-size: cover;
   }
 
   .third {
@@ -207,8 +232,8 @@ background-size: cover;
     font-family: 'Source Sans Pro', sans-serif;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #F0F7F6;
-
+    background: white url('../three.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 .fourth {
@@ -218,8 +243,9 @@ background-size: cover;
     font-family: 'Source Sans Pro', sans-serif;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #E2F2F0;
-}
+    background: white url('../four.jpg') no-repeat center center;
+    background-size: cover;
+  }
 
 .fifth {
     font-size: 13px;
@@ -228,7 +254,8 @@ background-size: cover;
     font-family: 'Source Sans Pro', sans-serif;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #C3E6E6;
+    background: white url('../five.jpg') no-repeat center center;
+    background-size: cover;
   }
 
 .sixth {
@@ -238,7 +265,8 @@ background-size: cover;
     font-family: 'Source Sans Pro', sans-serif;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #98D4D4;
+    background: white url('../six.jpg') no-repeat center center;
+    background-size: cover;
   }
 
 .seven {
@@ -248,7 +276,8 @@ background-size: cover;
     font-family: 'Source Sans Pro', sans-serif;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #6EB7B4;
+    background: white url('../seven.jpg') no-repeat center center;
+    background-size: cover;
   }
 
 .eight {
@@ -258,7 +287,8 @@ background-size: cover;
     font-family: 'Source Sans Pro', sans-serif;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #3D7F7A;
+    background: white url('../eight.jpg') no-repeat center center;
+    background-size: cover;
   }
 
 .nine {
@@ -268,18 +298,28 @@ background-size: cover;
     font-family: 'Source Sans Pro', sans-serif;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #276A75;
+    background: white url('../nine.jpg') no-repeat center center;
+    background-size: cover;
   }
 
-.ten {
-    font-size: 13px;
-    text-align: left;
-    width: inherit;
-    font-family: 'Source Sans Pro', sans-serif;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: #154651;
+  .ten {
+      font-size: 13px;
+      text-align: right;
+      width: inherit;
+      font-family: 'Source Sans Pro', sans-serif;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      background: white url('../ten.jpg') no-repeat center center;
+      background-size: cover;
+    }
+
+  .wave {
+    background: white url('../waveone.png') no-repeat center center;
+    background-size: cover;
+    flex: 0 0 auto;
+    display: inline flex;
   }
+
 /*Here's a sample media query for you. This one is for desktop styles.*/
 /*@media only screen and (min-width: 960px) {
 
